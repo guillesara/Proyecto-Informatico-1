@@ -25,6 +25,18 @@ Cuando ya se acabe el tiempo y se muestre el color del led mostrar una sola ves 
      -"El led esta usando esta configuración de colores RGB:   ( xx; xx ; xx )"
 Siendo cada xx los valores de 0 a 255 de cada color  ( rojo , verde , azul )
 
+## Consigna del TP4
+
+-Leer datos que nos brinda un sensor de temperatura(TPM36) y uno de luz ambiental(LDR).
+-Mostrar esos 2 datos por el monitor serial con el siguiente formato:
+"El nivel de luz actual es:"  VALOR " y la temperatura actual:" VALOR  "ºc"   c/u en una linea distinta                                
+
+-Hacer prender un led RGB según la temperatura que mida el sensor:
+                -rojo: si es más de 90°c
+                -azul: si es menos de 18°c
+                -verde: si está entre 18ºc y 90ºc
+ -Solo se debera prender el led como se indica arriba, siempre y cuando no halla luz ambiental.
+
 ## Consigna del examen
 
 Realizar un diagrama y codificacion en arduino para lograr que mediante 1 LED RGB se prendan de tal manera que muestre un color configurable dinamicamente por el usuario, a travez de 3 resistencias variables. ( cada resistencia le permite a usuario cambiar una de las gamas de color del led RBG)
