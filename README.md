@@ -10,7 +10,7 @@ La secuencia es la siguiente:
 - se paga el 2° led y se prende el 3° led en color cian(De forma analógica y tenue)
 - se paga el 3° led y se prende el 1° led  devuelta y así infinitamente.
 
-- ## Consigna del TP2
+## Consigna del TP2
 
 Usando el ejercicio del TP1 como base, agregarle una resistencia variable y lograr cambiar la velocidad en que los leds prenden.
 Ademas agregar un pulsador y  cuando se aprieta, los leds ya no prenden y si se suelta, los leds prenden y siguen con su juego de luces
@@ -36,6 +36,12 @@ Siendo cada xx los valores de 0 a 255 de cada color  ( rojo , verde , azul )
                 -azul: si es menos de 18°c
                 -verde: si está entre 18ºc y 90ºc
  -Solo se debera prender el led como se indica arriba, siempre y cuando no halla luz ambiental.
+
+## Consigna del TP6
+Tratar de pensar alguna manera para que un led RGB muestre toda la combinaciones de colores existentes en la tonalidades de RGB que se escribe de la siguiente forma:
+
+Formato de color RGB ( 255 ; 255 ; 255 ), donde cada parte representa los byte de cada columna de color. En total un led RGB puede producir aprox 16.000.000 de colores.
+
 
 ## Consigna del examen
 
