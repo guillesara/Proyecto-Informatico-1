@@ -1,5 +1,8 @@
 # Proyecto-Informatico-1
 
+## Guia de ejercicios 1
+Guía para practicar el contenido visto de arduino, realizado de circuito, lectura y escritura analogica y digital, combinado, uso de condicional, variables y la función Map.
+
 ## Consigna del TP1
 
 Desarrollar un código y un esquema electrónico básico que haga una secuencia de luces con 3 leds RGB.
