@@ -40,6 +40,17 @@ Siendo cada xx los valores de 0 a 255 de cada color  ( rojo , verde , azul )
                 -verde: si está entre 18ºc y 90ºc
  -Solo se debera prender el led como se indica arriba, siempre y cuando no halla luz ambiental.
 
+## Consigna del TP5
+
+Generar con un buzzer y el arduino una melodía personalizada autentica de cada uno, sin importar si el linda o entendible.  (no descargar melodías).
+
+La misma puede ser un fragmento corto de algún tema que les guste (recomendable para no tener que rehacer el TP porque tiene continuidad en otro TP).
+
+La melodía debe de ser mínimo de 40 notas y la misma debe repetirse infinitamente (termina, se espera unos segundos y vuelve a empezar).
+
+Es obligatorio el uso de vectores.
+
+
 ## Consigna del TP6
 Tratar de pensar alguna manera para que un led RGB muestre toda la combinaciones de colores existentes en la tonalidades de RGB que se escribe de la siguiente forma:
 
