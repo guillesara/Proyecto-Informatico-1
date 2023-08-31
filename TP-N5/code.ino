@@ -229,7 +229,7 @@ void loop()
 {
   //tone(buzz, , tempo);
   
-  for (int i = 0; i < sizeof(melody)/sizeof(int); i++)
+  for (int i = 0; i < 99; i++)
   {
     
    	tone(buzz, melody[i][0], (1000/melody[i][1]) * tempo);
