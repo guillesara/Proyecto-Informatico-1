@@ -4,7 +4,6 @@
 Guía para practicar el contenido visto de arduino, realizado de circuito, lectura y escritura analogica y digital, combinado, uso de condicional, variables y la función Map.
 
 ## Consigna del TP1
-
 Desarrollar un código y un esquema electrónico básico que haga una secuencia de luces con 3 leds RGB.
 
 La secuencia es la siguiente: 
@@ -14,12 +13,10 @@ La secuencia es la siguiente:
 - se paga el 3° led y se prende el 1° led  devuelta y así infinitamente.
 
 ## Consigna del TP2
-
 Usando el ejercicio del TP1 como base, agregarle una resistencia variable y lograr cambiar la velocidad en que los leds prenden.
 Ademas agregar un pulsador y  cuando se aprieta, los leds ya no prenden y si se suelta, los leds prenden y siguen con su juego de luces
 
 ## Consigna del TP3
-
 Colocar un pulsador, 3 potenciómetro y 1 LED RGB. 
 Cuando se pulsa una vez el botón, se ejecuta un tiempo de espera que dure 10 segundos en donde se le da tiempo al usuario a mover cada potenciómetro al punto que quiera y luego el LED RGB cambie su color en cada uno de sus espectros de luz (rojo, verde, azul) y quede prendido en esa combinación de colores hasta que se vuelva a presionar el pulsador y le deje usuario devuelta seleccionar otra combinación de colores.
 Cuando se toca el botón mostrar solo 1 vez el mensaje:
@@ -29,7 +26,6 @@ Cuando ya se acabe el tiempo y se muestre el color del led mostrar una sola ves 
 Siendo cada xx los valores de 0 a 255 de cada color  ( rojo , verde , azul )
 
 ## Consigna del TP4
-
 -Leer datos que nos brinda un sensor de temperatura(TPM36) y uno de luz ambiental(LDR).
 -Mostrar esos 2 datos por el monitor serial con el siguiente formato:
 "El nivel de luz actual es:"  VALOR " y la temperatura actual:" VALOR  "ºc"   c/u en una linea distinta                                
@@ -41,7 +37,6 @@ Siendo cada xx los valores de 0 a 255 de cada color  ( rojo , verde , azul )
  -Solo se debera prender el led como se indica arriba, siempre y cuando no halla luz ambiental.
 
 ## Consigna del TP5
-
 Generar con un buzzer y el arduino una melodía personalizada autentica de cada uno, sin importar si el linda o entendible.  (no descargar melodías).
 
 La misma puede ser un fragmento corto de algún tema que les guste (recomendable para no tener que rehacer el TP porque tiene continuidad en otro TP).
@@ -49,7 +44,6 @@ La misma puede ser un fragmento corto de algún tema que les guste (recomendable
 La melodía debe de ser mínimo de 40 notas y la misma debe repetirse infinitamente (termina, se espera unos segundos y vuelve a empezar).
 
 Es obligatorio el uso de vectores.
-
 
 ## Consigna del TP6
 Tratar de pensar alguna manera para que un led RGB muestre toda la combinaciones de colores existentes en la tonalidades de RGB que se escribe de la siguiente forma:
@@ -84,6 +78,13 @@ Código en binario     Carácter a Mostrar
           1101                              D
           1110                              E
           1111                              F
+
+## Consigna TP8
+Re armar el TP 5 con la siguiente modificación:
+
+Realizar una version Lirics con una pantalla LCD 16x2 pasando parte de la letra de la cancion mienstras esta sonando.
+
+sI EL TEMA ELEGIDO NO DISOPONE DE LETRA,  EN EL LYRICS PONER NOTAS MUSICALES A COMO CORRESPONDA
 
 ## Consigna del examen
 
