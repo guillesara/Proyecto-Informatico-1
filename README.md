@@ -97,6 +97,17 @@ Para usar el pin 0 y 1 NO SE PUEDE TENER LA CONSOLS Serial.begin() y Serial.prin
 El boton se puede leer de forma analogica por los pine A0-A5
 Se puede (no convencionalmente) usar los pines A0-A5 como Salidas (OUTPUT analogWrite)
 
+## Consigna TP10
+Utilizando un sensor de movimiento para identificar si hay una persona acercándose a una puerta ( la puesta es doble )
+Utilizar un par de servo-motores para abrirle ambas puertas a la persona.
+Utilizar otro sensor de movimiento del otro lado de la puerta para cerrar la puerta cuento la persona termino de cruzarla.
+Además revisar todo el tiempo la si hay poca visibilidad (esta oscuro) en ese caso prender un farol de luz led de 24v (en la puerta de salida)
+
+Utilizar funciones/procedimientos  creadas por ustedes para la detección del movimiento, detección de luz, prendido de luminaria, para abrir y cerrar las puertas.
+
+Mantener el ciclo void loop() lo mas corto de codificación utilizando funciones
+Todas las funciones/procedimientos deben recibir parámetros de entrada (lo que sientan mas apropiado)
+
 ## Consigna del examen
 Realizar un diagrama y codificacion en arduino para lograr que mediante 1 LED RGB se prendan de tal manera que muestre un color configurable dinamicamente por el usuario, a travez de 3 resistencias variables. ( cada resistencia le permite a usuario cambiar una de las gamas de color del led RBG)
 Se pide ademas que mediante un boton (siempre que este precionando) muestre el color, en el caso de que no este apretado no se mostrara ningun color
