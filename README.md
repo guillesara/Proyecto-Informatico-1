@@ -108,6 +108,9 @@ Utilizar funciones/procedimientos  creadas por ustedes para la detección del mo
 Mantener el ciclo void loop() lo mas corto de codificación utilizando funciones
 Todas las funciones/procedimientos deben recibir parámetros de entrada (lo que sientan mas apropiado)
 
+#Guia Ejercicios 2
+Guía para practicar el contenido visto de arduino, realizado de circuito, manejo de ciclos, vectores,  algunos sensores, lectura de datos por consola serial y funciones.
+
 ## Consigna del examen
 Realizar un diagrama y codificacion en arduino para lograr que mediante 1 LED RGB se prendan de tal manera que muestre un color configurable dinamicamente por el usuario, a travez de 3 resistencias variables. ( cada resistencia le permite a usuario cambiar una de las gamas de color del led RBG)
 Se pide ademas que mediante un boton (siempre que este precionando) muestre el color, en el caso de que no este apretado no se mostrara ningun color
